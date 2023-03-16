@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.displayn {
+  display: none;
+}
+.displayb {
+  display: block;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.container1 {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1rem;
+  width: 21rem;
+  height: 21rem;
+  margin: 15rem auto;
+  padding: 1.5rem;
+}
+
+.container1 .star {
+  background-color: hsl(215, 11%, 22%);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 img {
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.container1 h2 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.container1 p {
+  color: hsl(217, 12%, 63%);
+  font-size: 13px;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.container1 .btn--number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.container1 .btn {
+  background-color: hsl(215, 11%, 22%);
+  border-radius: 50%;
+  border: none;
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  font-weight: 400;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 .btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.container1 .btn:focus {
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
+.container1 .btnS {
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 1.1rem;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  width: 100%;
+  padding: 0.7rem 2rem;
+  text-transform: uppercase;
+}
+
+.container1 .btnS:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.container2 {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.5rem;
+  width: 21rem;
+  height: 21rem;
+  margin: 15rem auto;
+  padding: 2.5rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 .illustration {
+  width: 8rem;
+  height: 5.5rem;
+}
+
+.container2 .selected {
+  background-color: hsl(215, 11%, 22%);
+  border-radius: 1.7rem;
+  color: hsl(25, 97%, 53%);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  margin: 1.5rem auto;
+  padding: 0.25rem 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 h2 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.container2 p {
+  color: hsl(217, 12%, 63%);
+  font-size: 12px;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
